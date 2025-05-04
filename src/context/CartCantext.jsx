@@ -10,6 +10,7 @@ export const CartContextfunc = ({children})=>{
     if(product){
       return JSON.parse(product)
     }
+    return []
   })
 
   function AddToCart(id){
