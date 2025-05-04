@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "shabnam" ;
+  src: url(../public/font/Shabnam-Medium.ttf);
+  font-display: swap;
+}
+
+body{
+  font-family: "shabnam";
+}
+
+.res{
+  @apply container mx-auto px-6
+}
